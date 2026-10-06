@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>task</title>
+</head>
+<body>
+    <div class="card">
+        <div class="halves left">
+            <img src="img/bg.jpg" alt="Illustration of a laptop with charts">
+            <img src="img/logo.svg" alt="iintoo" class="logo">
+        </div>
+        <div class="halves" id="right">
+            <section class="inner-text"> 
+                <h1>Get intoo it today</h1>
+                <p id="description">There's no charge or obligation upon registration</p>
+                <section>
+                    <button class="facebook-button">
+                        <img src="img/facebook.svg" alt="Facebook Logo" class="button-logo">
+                        <span>Register with facebook</span>
+                    </button>
+                    <button class="linkedin-button">
+                        <img src="img/linkedin.svg" alt="Linkedin Logo" class="button-logo">
+                        <span>Register with linkedin</span>
+                    </button>
+                    <p class="or"><span>or</span></p>
+                    <div class="field">
+                        <label for="email">Email</label>
+                        <input type="email" id="email">
+                    </div>
+                    <div class="field">
+                        <label for="phone">Phone</label>
+                        <input type="tel" id="phone">
+                    </div>
+                </section>
+                <section>
+                    <h3>What type of investor are you?</h3>
+                    <p id="description-select">Select the option that best describes you</p>
+                    <form action = "">
+                        <input type="radio" name="investor" id="individual" value="individual">
+                        <label for="individual">Individual</label>
+                        <span class="info">i
+                            <span class="tooltip">I am a natural person investing on my own behalf as a sole owner, joint tenant, or tenant in common.</span>
+                        </span>
+                        <input type="radio" name="investor" id="business" value="business">
+                        <label for="business">Business</label>
+                        <span class="info">i
+                            <span class="tooltip">I am a natural person investing on my own behalf as a sole owner, joint tenant, or tenant in common.</span>
+                        </span>   
+                        <input type="radio" name="investor" id="ira" value="IRA">
+                        <label for="ira">IRA</label>
+                        <span class="info">i
+                            <span class="tooltip">I am a natural person investing on my own behalf as a sole owner, joint tenant, or tenant in common.</span>
+                        </span>       
+                        <input type="radio" name="investor" id="trust" value="Trust">
+                        <label for="trust">Trust</label>
+                        <span class="info">i
+                            <span class="tooltip">I am a natural person investing on my own behalf as a sole owner, joint tenant, or tenant in common.</span>
+                        </span>        
+                    </form>
+                    <div class="terms">
+                        <input type="checkbox" id="marketing">
+                        <label for="marketing">I agree to the <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a></label>
+                    </div>
+                    <button class="continue-button">Create Account</button>
+                </section>
+            </section>
+        </div>
+    </div>
+</body>
+</html>
